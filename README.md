@@ -162,7 +162,39 @@ docker push <account_id>.dkr.ecr.sa-east-1.amazonaws.com/ecommerce-pipeline:late
 - Em produção seria RDS Postgres.
 - No protótipo usamos Postgres local via Docker Compose para evitar custos.
 
-### 📝 Observação ### 🔧 Notas Técnicas
+## 📊 Demonstração
+
+Abaixo algumas capturas de tela do projeto em execução:
+
+### Airflow UI — DAGs em execução
+![Airflow DAGs](screenshots/airflow_dags1.png)
+![Airflow DAGs](screenshots/airflow_dags2.png)
+
+### Power BI — Página 1: Visão Geral de Receita e Crescimento
+Esta página mostra indicadores financeiros e evolução da receita entre setembro e dezembro de 2025.  
+O foco está no ticket médio, receita total, crescimento mensal/trimestral e desempenho por categoria.
+
+![Power BI Página 1](screenshots/powerbi_page1.png)
+
+### Power BI — Página 2: Clientes e Pedidos
+Esta página mostra retenção, aquisição e valor dos clientes entre setembro e dezembro de 2025.  
+O foco está nos clientes de maior gasto e na evolução do churn.
+
+![Power BI Página 2](screenshots/powerbi_page2.png)
+
+### Power BI — Página 3: Produtos e Performance de Vendas
+Esta página mostra a performance dos produtos e vendas entre setembro e dezembro de 2025.  
+O foco está na classificação ABC, top produtos por receita, evolução temporal por categoria e itens vendidos.
+
+![Power BI Página 3](screenshots/powerbi_page3.png)
+
+### Execução do Script `.bat` — Inicialização automatizada
+Abaixo, uma captura da execução do script `start_airflow.bat`, mostrando a criação dos containers, migração do banco de metadados e criação do usuário admin.
+
+![Execução do .bat](screenshots/start_airflow_bat1.png)
+![Execução do .bat](screenshots/start_airflow_bat2.png)
+
+## 📝 Observação & 🔧 Notas Técnicas
 - O atributo `version` foi removido do `docker-compose.yaml`, pois está obsoleto no Docker Compose v2.  
 - A variável `AIRFLOW__CORE__SQL_ALCHEMY_CONN` foi atualizada para `AIRFLOW__DATABASE__SQL_ALCHEMY_CONN`, conforme recomendação das versões mais recentes do Airflow.  
 - A porta `5433` definida em `POSTGRES_PORT` é a porta **externa** para acesso ao Postgres fora do Docker (ex.: pgAdmin).  
