@@ -174,7 +174,7 @@ Abaixo algumas capturas de tela do projeto em execução:
 Esta página mostra indicadores financeiros e evolução da receita entre setembro e dezembro de 2025.  
 O foco está no ticket médio, receita total, crescimento mensal/trimestral e desempenho por categoria.
 
-![Power BI Página 1](screenshots/powerbi_page1.png)
+![Power BI Página 1](screenshots/powerbi_page3.png)
 
 ### Power BI — Página 2: Clientes e Pedidos
 Esta página mostra retenção, aquisição e valor dos clientes entre setembro e dezembro de 2025.  
@@ -186,7 +186,7 @@ O foco está nos clientes de maior gasto e na evolução do churn.
 Esta página mostra a performance dos produtos e vendas entre setembro e dezembro de 2025.  
 O foco está na classificação ABC, top produtos por receita, evolução temporal por categoria e itens vendidos.
 
-![Power BI Página 3](screenshots/powerbi_page3.png)
+![Power BI Página 3](screenshots/powerbi_page1.png)
 
 ### Execução do Script `.bat` — Inicialização automatizada
 Abaixo, uma captura da execução do script `start_airflow.bat`, mostrando a criação dos containers, migração do banco de metadados e criação do usuário admin.
