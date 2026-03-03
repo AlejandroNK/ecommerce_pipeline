@@ -1,0 +1,51 @@
+customer_id,name,email,signup_date,country,state,city
+3e063b6f-93df-40b1-bbe2-9fe8ecbd36f4,Cliente 0,cliente0@exemplo.com,2025-10-06,Brasil,MG,Belo Horizonte
+a232d9fd-24f4-4c87-8b72-7fda392eaa26,Cliente 1,cliente1@exemplo.com,2025-08-10,Brasil,SC,São Paulo
+1414e49f-17e7-481d-9b3f-dae0c9584a32,Cliente 2,cliente2@exemplo.com,2025-06-12,Brasil,RS,Florianópolis
+65cf1db0-3e3b-475a-933a-dcda967beaa8,Cliente 3,cliente3@exemplo.com,2025-06-25,Brasil,RS,Florianópolis
+9f7fa64c-c56d-44c0-b388-589661bdc2ae,Cliente 4,cliente4@exemplo.com,2025-02-10,Brasil,MG,São Paulo
+53145ef5-6a9c-456b-9977-db7471a103eb,Cliente 5,cliente5@exemplo.com,2025-08-04,Brasil,SC,Belo Horizonte
+69d075ce-dceb-4f9a-8086-f66f0a510984,Cliente 6,cliente6@exemplo.com,2025-02-14,Brasil,SC,Rio
+4c54a79a-72b1-4eec-aab6-783cdc2676b8,Cliente 7,cliente7@exemplo.com,2025-11-05,Brasil,SC,Belo Horizonte
+996c38fe-23ff-4a07-9ef6-5d3ff79f0b13,Cliente 8,cliente8@exemplo.com,2025-11-17,Brasil,RJ,Rio
+f005b23e-6d36-4358-9107-cf5dcf47c9ae,Cliente 9,cliente9@exemplo.com,2025-05-14,Brasil,RS,São Paulo
+7f6145da-2115-47b6-ad77-546043bebc82,Cliente 10,cliente10@exemplo.com,2025-09-08,Brasil,RJ,Belo Horizonte
+c773280a-b3fd-45e4-9566-5958934f0327,Cliente 11,cliente11@exemplo.com,2025-02-23,Brasil,SP,São Paulo
+ea6fc2c8-07f5-472b-8613-ffd36202c4be,Cliente 12,cliente12@exemplo.com,2025-01-13,Brasil,SP,Belo Horizonte
+a5aeafa3-37bd-4a2f-b284-006e434f2c6d,Cliente 13,cliente13@exemplo.com,2025-02-05,Brasil,MG,Curitiba
+ae152cf8-540e-4942-b2ab-5fa5ced05f70,Cliente 14,cliente14@exemplo.com,2025-10-04,Brasil,RJ,Belo Horizonte
+c409a2f8-0ad0-4c66-be79-a97ee466400c,Cliente 15,cliente15@exemplo.com,2025-05-07,Brasil,MG,Porto Alegre
+e6e6c0a2-9ef4-4c5d-9783-65482ff2c04b,Cliente 16,cliente16@exemplo.com,2025-08-28,Brasil,SC,São Paulo
+f41d2e96-3ad4-4188-85eb-54967c4e3a7b,Cliente 17,cliente17@exemplo.com,2025-08-18,Brasil,RS,Florianópolis
+084fe215-a23f-42fa-b152-05683ba7e396,Cliente 18,cliente18@exemplo.com,2025-10-30,Brasil,RS,São Paulo
+0c117436-f0ec-4711-bc8c-c9809466f9fd,Cliente 19,cliente19@exemplo.com,2025-03-24,Brasil,RJ,Rio
+f5631899-1555-40e0-ae0b-fd6fc5b46160,Cliente 20,cliente20@exemplo.com,2025-02-04,Brasil,RJ,São Paulo
+c54ee5d7-9f43-456b-8e4e-73d56b0c10ae,Cliente 21,cliente21@exemplo.com,2025-02-24,Brasil,MG,Porto Alegre
+f9ed4256-a830-44d0-bb42-943de84a1cdd,Cliente 22,cliente22@exemplo.com,2025-04-09,Brasil,RS,São Paulo
+ebfa1817-3284-4aed-9320-e78e050503d4,Cliente 23,cliente23@exemplo.com,2025-07-28,Brasil,SC,Belo Horizonte
+53111ff9-d159-431d-af59-8e5ea27fec63,Cliente 24,cliente24@exemplo.com,2025-01-04,Brasil,RS,Belo Horizonte
+afc87d26-bb54-4271-9516-e6b9b62fb4aa,Cliente 25,cliente25@exemplo.com,2025-02-26,Brasil,SP,Porto Alegre
+ab6b8b56-c725-4c2f-b5b0-72b2f2b41ef9,Cliente 26,cliente26@exemplo.com,2025-01-15,Brasil,RJ,Belo Horizonte
+043522c0-9c37-44a3-b8f2-531859d30872,Cliente 27,cliente27@exemplo.com,2025-02-22,Brasil,SC,Belo Horizonte
+f8618983-3732-468d-a085-51a85008da30,Cliente 28,cliente28@exemplo.com,2025-01-22,Brasil,RS,Porto Alegre
+8f005457-8fb9-43d8-bad0-250748325ebf,Cliente 29,cliente29@exemplo.com,2025-08-31,Brasil,RJ,Belo Horizonte
+0c319386-1fa4-4657-a60e-c6a17d55505f,Cliente 30,cliente30@exemplo.com,2025-02-10,Brasil,RJ,Belo Horizonte
+90eae028-a92c-40f2-a0d6-edc55541c4c8,Cliente 31,cliente31@exemplo.com,2025-10-09,Brasil,MG,Florianópolis
+c27b8549-1985-4f0b-a427-52f5602e3790,Cliente 32,cliente32@exemplo.com,2025-04-25,Brasil,RS,Curitiba
+7a2192b7-5774-4cd9-8529-aa63e38beae5,Cliente 33,cliente33@exemplo.com,2024-12-26,Brasil,RJ,Curitiba
+47b8c7c4-fb38-4cbc-a332-e552ddf418e2,Cliente 34,cliente34@exemplo.com,2025-10-14,Brasil,SC,Florianópolis
+d1296772-1ad4-49f3-844d-2f8ef2796b32,Cliente 35,cliente35@exemplo.com,2025-09-28,Brasil,SC,Porto Alegre
+362563f4-a873-4284-aec5-a64e628e6d72,Cliente 36,cliente36@exemplo.com,2025-01-28,Brasil,SC,Florianópolis
+b6bce046-c4f6-4ee4-b0be-63fdaa74ef2a,Cliente 37,cliente37@exemplo.com,2025-04-15,Brasil,SC,Rio
+4f9f2f53-83b2-49f7-beaf-4eedfea5ae3f,Cliente 38,cliente38@exemplo.com,2025-03-17,Brasil,MG,Rio
+814e2c54-ce09-418a-b371-fb26f2ba4526,Cliente 39,cliente39@exemplo.com,2025-04-16,Brasil,PR,Rio
+793a9e21-ecd2-453a-87b1-a26fdf07a551,Cliente 40,cliente40@exemplo.com,2025-08-20,Brasil,RJ,Porto Alegre
+b3d55346-47cc-4214-b96c-31dbf6951938,Cliente 41,cliente41@exemplo.com,2025-05-01,Brasil,SC,São Paulo
+c02c9e50-8b44-43fd-aede-84422a0a287a,Cliente 42,cliente42@exemplo.com,2025-08-26,Brasil,SC,Florianópolis
+6a4847a8-0f26-46f3-a900-acb7870c6502,Cliente 43,cliente43@exemplo.com,2025-05-06,Brasil,RJ,Rio
+3176e5c7-6806-4c7b-a071-2761c5beef8e,Cliente 44,cliente44@exemplo.com,2025-02-06,Brasil,RS,São Paulo
+2afa1545-5872-4b09-b241-c8a0738a59f9,Cliente 45,cliente45@exemplo.com,2025-12-01,Brasil,RS,Florianópolis
+1e323a26-b791-4b9f-8a43-84c03c506039,Cliente 46,cliente46@exemplo.com,2025-01-18,Brasil,MG,Rio
+9b73a98b-832c-4296-b394-426a32047068,Cliente 47,cliente47@exemplo.com,2025-07-19,Brasil,RJ,Curitiba
+1adde11a-0b79-4a83-b314-f4f9a65e1acd,Cliente 48,cliente48@exemplo.com,2025-10-10,Brasil,RJ,Curitiba
+4da7de70-a4f3-4f65-a41d-53b57e9363c5,Cliente 49,cliente49@exemplo.com,2025-11-07,Brasil,MG,Porto Alegre

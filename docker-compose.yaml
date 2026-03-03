@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:13
+    env_file:
+      .env
+    ports:
+      - "5433:5432"
+
+  airflow-webserver:
+    image: ecommerce-pipeline:latest
+    command: webserver
+    env_file:
+      .env
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+  airflow-scheduler:
+    image: ecommerce-pipeline:latest
+    command: scheduler
+    env_file:
+      .env
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+    depends_on:
+      - postgres
+
+  airflow-triggerer:
+    image: ecommerce-pipeline:latest
+    command: triggerer
+    env_file:
+      .env
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+    depends_on:
+      - postgres

@@ -1,0 +1,21 @@
+product_id,sku,name,category,price
+ee708a1c-e69c-4b65-88aa-b58d9692da75,SKU-00000,Produto 0,Esporte,878.49
+8434fddf-dbc1-49dd-9c5b-956cfb75c727,SKU-00001,Produto 1,Moda,1054.72
+8fa3fac3-f0c3-4cb5-8e24-e1c0a39f7968,SKU-00002,Produto 2,Moda,412.87
+06d02b0c-dd4a-43ce-8b6b-59858773be6e,SKU-00003,Produto 3,Moda,790.74
+4452939c-59f7-45a6-b498-e3ec3220c7e1,SKU-00004,Produto 4,Esporte,456.96
+9b828d5f-9312-49de-8b25-2e324c8ad85d,SKU-00005,Produto 5,Moda,112.48
+aa679c79-9742-404d-a1e0-572c21041516,SKU-00006,Produto 6,Moda,1407.08
+693fc369-4866-4d58-a1ad-5b4b53313d31,SKU-00007,Produto 7,Moda,62.19
+55889ee1-b824-4b17-85f7-fad8601bd207,SKU-00008,Produto 8,Eletrônicos,1107.03
+c190968f-943b-4d39-bafc-10eec87d3873,SKU-00009,Produto 9,Casa,345.88
+efb38b54-edca-4284-ad68-bd468e7d8619,SKU-00010,Produto 10,Casa,507.23
+1499375e-a1f5-434f-a017-5647afb93f9d,SKU-00011,Produto 11,Casa,1141.89
+6ab8d9ff-0c5c-406c-950d-f1515c678548,SKU-00012,Produto 12,Moda,1117.5
+65de1c2f-73f6-47c6-8207-c4cd8e9d41ff,SKU-00013,Produto 13,Moda,811.19
+74624bce-5e3d-46af-95f2-088751acea9d,SKU-00014,Produto 14,Eletrônicos,391.34
+31a30a4b-b51e-41fd-b4be-be08ee9f18ec,SKU-00015,Produto 15,Eletrônicos,1441.29
+edf3fb34-7f60-4f94-bfc3-06213185d42a,SKU-00016,Produto 16,Eletrônicos,306.75
+14213dd3-7407-460f-8320-006f55cea921,SKU-00017,Produto 17,Esporte,1230.75
+78fd39d8-fec1-4455-b15d-2c73642d2023,SKU-00018,Produto 18,Moda,989.63
+b101e685-bd1d-41f5-996d-5403c514dcc6,SKU-00019,Produto 19,Casa,1158.21
