@@ -162,9 +162,13 @@ docker push <account_id>.dkr.ecr.sa-east-1.amazonaws.com/ecommerce-pipeline:late
 - Em produção seria RDS Postgres.
 - No protótipo usamos Postgres local via Docker Compose para evitar custos.
 
-### 📝 Observação ###
-   Este protótipo foi desenvolvido para demonstrar um pipeline de dados orquestrado com Apache Airflow.
-   A versão local usa Docker Compose com Postgres para persistência de metadados, sem custo.
-   Também foi demonstrado como publicar a imagem no Amazon ECR e configurar execução no ECS Fargate, simulando o ambiente de produção.
-   Em produção, o banco de metadados seria substituído por RDS Postgres e os serviços rodariam em ECS Fargate com escalabilidade automática.
-   O script .bat facilita a inicialização automatizada, tornando o protótipo mais prático e profissional.
+### 📝 Observação ### 🔧 Notas Técnicas
+- O atributo `version` foi removido do `docker-compose.yaml`, pois está obsoleto no Docker Compose v2.  
+- A variável `AIRFLOW__CORE__SQL_ALCHEMY_CONN` foi atualizada para `AIRFLOW__DATABASE__SQL_ALCHEMY_CONN`, conforme recomendação das versões mais recentes do Airflow.  
+- A porta `5433` definida em `POSTGRES_PORT` é a porta **externa** para acesso ao Postgres fora do Docker (ex.: pgAdmin).  
+- Dentro da rede Docker, o Airflow continua acessando o Postgres pela porta interna `5432`.  
+- O arquivo `.env.example` já reflete essas alterações, garantindo que o setup seja reproduzível sem warnings.
+- A versão local usa Docker Compose com Postgres para persistência de metadados, sem custo.
+- Também foi demonstrado como publicar a imagem no Amazon ECR e configurar execução no ECS Fargate, simulando o ambiente de produção.
+- Em produção, o banco de metadados seria substituído por RDS Postgres e os serviços rodariam em ECS Fargate com escalabilidade automática.
+- O script .bat facilita a inicialização automatizada, tornando o protótipo mais prático e profissional.
