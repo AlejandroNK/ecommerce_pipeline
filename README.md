@@ -30,18 +30,22 @@ Em produção, o banco de metadados seria substituído por RDS Postgres, garanti
 ## 🚀 Como rodar localmente (Setup Manual) 
 
 ### 1. Clone o repositório
-```bash 
 git clone https://github.com/seuusuario/ecommerce_pipeline.git 
 cd ecommerce_pipeline
+
+---
 
 ### 2. Pré-requisitos
 - Docker e Docker Compose instalados.  
 - Python 3.x para gerar Fernet Key.  
 
+---
+
 ### 3. Gerar Fernet Key
-```bash
 python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 Copie o valor e coloque no arquivo .env.
+
+---
 
 ### 4. Arquivo .env
 - Crie um arquivo .env na raiz do projeto com:
@@ -58,11 +62,17 @@ AIRFLOW__CORE__EXECUTOR=SequentialExecutor
 > ℹ️ **Nota:** Dentro da rede Docker, o Airflow acessa o Postgres pela porta interna `5432`. 
 > A variável `POSTGRES_PORT=5433` é usada apenas para acesso externo (ex.: pgAdmin ou cliente SQL local).
 
+---
+
 ### 5. Subir containers
 docker-compose up -d
 
+---
+
 ### 6. Inicializar banco do Airflow
 docker exec -it airflow-webserver airflow db init
+
+---
 
 ### 7. Criar usuário admin
 docker exec -it airflow-webserver airflow users create \
@@ -73,9 +83,12 @@ docker exec -it airflow-webserver airflow users create \
     --email admin@example.com \
     --password admin
 
+---
+
 ### 8. Acessar UI
 Abra http://localhost:8080  
 Login: admin / admin
+
 
 ## 🚀 Como rodar localmente (⚡Inicialização automatizada com .bat)
 - Este projeto inclui um script start_airflow.bat que automatiza todo o processo de inicialização e criação do usuário admin.
